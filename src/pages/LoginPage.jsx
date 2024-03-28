@@ -32,7 +32,7 @@ function LoginPage() {
                         <img src={require("../assets/images/Login/logo.png")} alt="" />
                     </div>
                     <span className='name-datos'>Usuario:</span>
-                    <input
+                    <input className='user'
                         type="text"
                         placeholder="Usuario"
                         value={username}
@@ -41,7 +41,7 @@ function LoginPage() {
                     {errors.username && <span className="error">El campo de usuario es requerido</span>}
                     <span className='name-datos'>Contraseña:</span>
                     <div className='pass'>
-                        <input
+                        <input className='inp-pass'
                             type={showPassword ? "text" : "password"}
                             placeholder="Contraseña"
                             value={password}

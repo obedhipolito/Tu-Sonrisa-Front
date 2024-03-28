@@ -41,7 +41,7 @@
     margin-top: 4px;
   }
 
-  .datos-container form input, .pass input{
+  .datos-container form .user{
     outline: none;
     height: 25px;
     border-radius: 6px;
@@ -52,18 +52,27 @@
 
   .pass {
     position: relative;
+    height: 25px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    background-color: #FFFF;
+    align-items: center;
   }
   
   .pass input {
     padding-right: 30px;
+    width: 85%;
+    border: none;
+    outline: none;
   }
   
   .password-toggle {
     position: absolute;
     right: 10px;
-    transform: translateY(45%);
+    transform: translateY(25%);
     cursor: pointer;
-
   }
   
 
